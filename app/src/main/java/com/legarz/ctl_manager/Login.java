@@ -19,11 +19,23 @@ public class Login extends AppCompatActivity {
         binding = ActivityLoginBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        //#Handle firebase login authorisation
+
         /*Handle login button click*/
         binding.loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(Login.this, Dashboard.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        /*Handle textview click for sign up*/
+        binding.tvSignup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, SignUp.class);
                 startActivity(intent);
                 finish();
             }

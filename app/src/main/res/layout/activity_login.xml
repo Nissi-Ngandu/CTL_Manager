@@ -35,9 +35,9 @@
         android:layout_marginTop="90dp">
 
         <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/logo1"/>
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:background="@drawable/logo"/>
 
     </LinearLayout>
 
@@ -221,11 +221,12 @@
 
         <!--NOT YET REGISTERED-->
         <TextView
+            android:id="@+id/tv_Signup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/white"
+            android:layout_centerInParent="true"
             android:text="Don't have an account? Sign up?"
-            android:layout_centerInParent="true"/>
+            android:textColor="@color/white" />
 
 
     </RelativeLayout>
