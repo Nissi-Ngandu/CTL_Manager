@@ -2,28 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/home"
+        android:id="@+id/homeMenu"
         android:enabled="true"
         android:icon="@drawable/home_icon"
-        android:title="Search"/>
-
-    <item
-        android:id="@+id/search"
-        android:enabled="true"
-        android:icon="@drawable/search_icon"
-        android:title="Collections"/>
-
-    <item
-        android:id="@+id/collections"
-        android:enabled="true"
-        android:icon="@drawable/collections_icon"
         android:title="Home"/>
 
     <item
-        android:id="@+id/settings"
+        android:id="@+id/collectionsMenu"
         android:enabled="true"
-        android:icon="@drawable/settings_icon"
-        android:title="Settings"/>
+        android:icon="@drawable/collections_icon"
+        android:title="Collections"/>
+
+    <item
+        android:id="@+id/profileMenu"
+        android:enabled="true"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"/>
 
 
 

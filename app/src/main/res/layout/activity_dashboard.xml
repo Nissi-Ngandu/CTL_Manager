@@ -4,13 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Dashboard">
+    tools:context=".Dashboard"
+    android:background="@drawable/splbg">
 
     <!--Navigation bar placeholder-->
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true">
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/splashscreenBG">
 
         <!--BOTTOM NAVIGATION BAR/MENU-->
         <LinearLayout
