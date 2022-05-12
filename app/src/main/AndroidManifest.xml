@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CTL_Manager">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
             android:name=".Dashboard"
             android:exported="false" />
         <activity
